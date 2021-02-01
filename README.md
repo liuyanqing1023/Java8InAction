@@ -1,59 +1,52 @@
-Java8InAction
-===============
+# Java8InAction
 
-This repository contains all the source code for the examples and quizzes in the book Java 8 in Action: Lambdas, Streams and functional-style programming.
+该存储库包含《 Java 8 in Action：Lambda，流和函数式编程》一书中的示例和测验的所有源代码。
 
-You can purchase the book here: [http://manning.com/urma/](http://manning.com/urma/) or on Amazon
+您可以在这里购买该书：[http](http://manning.com/urma/) : [//manning.com/urma/](http://manning.com/urma/)或在亚马逊上
 
-The source code for all examples can be found in the directory [src/main/java/lambdasinaction](https://github.com/java8/Java8InAction/tree/master/src/main/java/lambdasinaction)
+所有示例的源代码都可以在目录[src / main / java / lambdasinaction中找到](https://github.com/java8/Java8InAction/tree/master/src/main/java/lambdasinaction)
 
-* Chapter 1: Java 8: why should you care?
-* Chapter 2: Passing code with behavior parameterization
-* Chapter 3: Lambda expressions
-* Chapter 4: Working with Streams
-* Chapter 5: Processing data with streams
-* Chapter 6: Collecting data with streams
-* Chapter 7: Parallel data processing and performance
-* Chapter 8: Refactoring, testing, debugging
-* Chapter 9: Default methods
-* Chapter 10: Using Optional as a better alternative to null
-* Chapter 11: CompletableFuture: composable asynchronous programming
-* Chapter 12: New Date and Time API
-* Chapter 13: Thinking functionally
-* Chapter 14: Functional programming techniques
-* Chapter 15: Blending OOP and FP: comparing Java 8 and Scala
-* Chapter 16: Conclusions and "where next" for Java
-* Appendix A: Miscellaneous language updates
-* Appendix B: Miscellaneous library updates
-* Appendix C: Performing multiple operations in parallel on a Stream
-* Appendix D: Lambdas and JVM bytecode
-We will update the repository as we update the book. Stay tuned!
+- 第1章：Java 8：为什么要关心？
+- 第2章：通过行为参数化传递代码
+- 第3章：Lambda表达式
+- 第4章：使用流
+- 第5章：使用流处理数据
+- 第6章：使用流收集数据
+- 第7章：并行数据处理和性能
+- 第8章：重构，测试，调试
+- 第9章：默认方法
+- 第10章：使用Optional作为null的更好替代
+- 第11章：CompletableFuture：可组合的异步编程
+- 第12章：新的日期和时间API
+- 第十三章：功能性思考
+- 第14章：函数式编程技术
+- 第15章：混合OOP和FP：比较Java 8和Scala
+- 第16章：Java的结论和“下一步”
+- 附录A：其他语言更新
+- 附录B：其他库更新
+- 附录C：在Stream上并行执行多项操作
+- 附录D：Lambda和JVM字节码我们将在更新本书时更新存储库。敬请关注！
 
-### Make sure to have JDK8 installed
-The latest binary can be found here: http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
+### 确保已安装JDK8
 
-$ java -version
+最新的二进制文件可以在这里找到：[http](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) : [//www.oracle.com/technetwork/java/javase/overview/java8-2100321.html](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
 
-java version "1.8.0_05"
-Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
-Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)
+$ java-版本
 
+Java版本“ 1.8.0_05” Java™SE运行时环境（内部版本1.8.0_05-b13）Java HotSpot（TM）64位服务器VM（内部版本25.5-b02，混合模式）
 
-You can download a preview version here: https://jdk8.java.net/
+您可以在此处下载预览版：[https](https://jdk8.java.net/) : [//jdk8.java.net/](https://jdk8.java.net/)
 
-### Compile/Run the examples
-Using maven:
+### 编译/运行示例
 
-$ mvn compile
+使用Maven：
 
-$ cd target/classes
+$ mvn编译
 
-$ java lambdasinaction/chap1/FilteringApples
+$ cd目标/类别
 
+$ java lambdasinaction / chap1 / FilteringApples
 
-Alternatively you can compile the files manually inside the directory src/main/java
+或者，您可以在src / main / java目录中手动编译文件
 
-You can also import the project in your favorite IDE:
-    * In IntelliJ use "File->Open" menu and navigate to the folder where the project resides
-    * In Eclipse use "File->Import->Existing Maven Projects" (also modify "Reduntant super interfaces" to report as Warnings instead of Errors
-    * In Netbeans use "File->Open Project" menu
+您也可以在自己喜欢的IDE中导入项目：*在IntelliJ中，使用“文件->打开”菜单并导航到项目所在的文件夹*在Eclipse中，使用“文件->导入->现有Maven项目”（也可以修改“冗余超级接口”报告为警告而不是错误*在Netbeans中，使用“文件->打开项目”菜单
